@@ -1,0 +1,26 @@
+[
+    {
+        "title": "WeatherPWA",
+        "description": "PWA med OpenWeatherMap, offline-stöd, manifest och service worker.",
+        "tags": ["PWA", "JavaScript", "API", "Offline"],
+        "links": {
+            "repo": "https://github.com/aelin6277/weatherPWA"
+        }
+    },
+    {
+        "title": "CardsGame2022",
+        "description": "Kodprojekt (kortspel) för att öva logik och struktur.",
+        "tags": ["Java", "OOP"],
+        "links": {
+            "repo": "https://github.com/Elin65894/CardsGame2022.git"
+        }
+    },
+    {
+        "title": "UiPath Automation (exempel)",
+        "description": "Automationer i UiPath: testautomation och unattended flows.",
+        "tags": ["UiPath", "RPA", "Testautomation"],
+        "links": {
+            "demo": ""
+        }
+    }
+]
