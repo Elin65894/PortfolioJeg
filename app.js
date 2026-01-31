@@ -6,8 +6,8 @@ const state = {
 document.getElementById('year').textContent = new Date().getFullYear()
 
 // Sätt din GitHub här (ändra om du vill)
-const githubUrl = 'https://github.com/Elin65894'
-document.getElementById('githubLink').href = githubUrl
+//const githubUrl = 'https://github.com/Elin65894'
+//document.getElementById('githubLink').href = githubUrl
 
 const grid = document.getElementById('projectsGrid')
 const emptyState = document.getElementById('emptyState')
@@ -62,10 +62,10 @@ function render() {
 }
 
 // PWA: registrera service worker
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js')
-    })
-}
+//if ('serviceWorker' in navigator) {
+  //  window.addEventListener('load', () => {
+    //    navigator.serviceWorker.register('service-worker.js')
+ //   })
+//}
 
 loadProjects()
