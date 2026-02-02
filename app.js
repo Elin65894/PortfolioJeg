@@ -6,8 +6,8 @@ const state = {
 document.getElementById('year').textContent = new Date().getFullYear()
 
 // Sätt din GitHub här (ändra om du vill)
-const githubUrl = 'https://github.com/Elin65894'
-document.getElementById('githubLink').href = githubUrl
+//const githubUrl = 'https://github.com/Elin65894'
+//document.getElementById('githubLink').href = githubUrl
 
 const grid = document.getElementById('projectsGrid')
 const emptyState = document.getElementById('emptyState')
@@ -39,6 +39,9 @@ function projectCard(p) {
     const repo = p.links?.repo
         ? `<a class="btn btn-ghost" href="${p.links.repo}" target="_blank" rel="noreferrer">Repo</a>`
         : ''
+    const video = p.links?.video
+        ? `<a class="btn btn-ghost" href="${p.links.video}" target="_blank" rel="noopener noreferrer">Video</a>`
+        : ''
     const demo = p.links?.demo
         ? `<a class="btn" href="${p.links.demo}" target="_blank" rel="noreferrer">Demo</a>`
         : ''
@@ -50,7 +53,7 @@ function projectCard(p) {
         <p class="muted" style="margin:0;">${p.description}</p>
       </div>
       <div class="tags">${tags}</div>
-      <div class="cta-row">${demo}${repo}</div>
+      <div class="cta-row">${demo}${video}${repo}</div>
     </article>
   `
 }
@@ -62,10 +65,10 @@ function render() {
 }
 
 // PWA: registrera service worker
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js')
-    })
-}
+//if ('serviceWorker' in navigator) {
+  //  window.addEventListener('load', () => {
+    //    navigator.serviceWorker.register('service-worker.js')
+ //   })
+//}
 
 loadProjects()

@@ -1,13 +1,23 @@
 [
-    {
-        "title": "WeatherPWA",
-        "description": "PWA med OpenWeatherMap, offline-stöd, manifest och service worker.",
-        "tags": ["PWA", "JavaScript", "API", "Offline"],
-        "links": {
-            "repo": "https://github.com/aelin6277/weatherPWA"
-        }
-    },
-    {
+{
+  "title": "DuoVitamin",
+  "description": "iOS-app i SwiftUI med kalender där föräldrar checkar av givna vitamindagar. Historiken sparas lokalt för att minska risken för dubbel dosering. Inloggning med Firebase Auth.",
+  "tags": ["Swift", "SwiftUI", "Xcode", "Firebase Auth", "UserDefaults"],
+  "links": {
+    "video": "https://www.linkedin.com/feed/update/urn:li:activity:7300948634555076609/?originTrackingId=pA%2BAS88GRjiP%2FYI2Pz4MKg%3D%3D",
+    "repo": "https://github.com/Elin65894/TGTR"
+  }
+},
+{
+  "title": "RacoonSquash (Pong + Squash)",
+  "description": "Agilt grupparbete där två spel (Pong och Squash) byggdes i samma Android-app. Jag bidrog med bollfysik (studs, hastighet och vinkel), ljudeffekter, bakgrundsmusik och separat highscore-hantering.",
+  "tags": ["Android", "Kotlin", "SurfaceView", "Game loop", "Agilt samarbete"],
+  "links": {
+    "video": "https://www.linkedin.com/posts/elin-andersson-59a6ab330_activity-7249535037774135297-JOax",
+    "repo": "https://github.com/aelin6277/RacoonSquash"
+  }
+},
+{
         "title": "CardsGame2022",
         "description": "Kodprojekt (kortspel) för att öva logik och struktur.",
         "tags": ["Java", "OOP"],
@@ -16,11 +26,13 @@
         }
     },
     {
-        "title": "UiPath Automation (exempel)",
-        "description": "Automationer i UiPath: testautomation och unattended flows.",
-        "tags": ["UiPath", "RPA", "Testautomation"],
-        "links": {
-            "demo": ""
-        }
-    }
+  "title": "WeatherPWA",
+  "description": "PWA som hämtar väderdata från API och visar temperatur för valda städer. Byggd i Visual Studio Code med fokus på enkel UX och offline/PWA-funktioner.",
+  "tags": ["PWA", "JavaScript", "API", "HTML", "CSS", "VS Code"],
+  "links": {
+    "video": "https://www.linkedin.com/posts/elin-andersson-59a6ab330_activity-7249543340277338112-P3DW",
+    "repo": "https://github.com/aelin6277/weatherPWA"
+  }
+}
+
 ]
