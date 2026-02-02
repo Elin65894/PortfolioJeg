@@ -39,6 +39,9 @@ function projectCard(p) {
     const repo = p.links?.repo
         ? `<a class="btn btn-ghost" href="${p.links.repo}" target="_blank" rel="noreferrer">Repo</a>`
         : ''
+    const video = p.links?.video
+        ? `<a class="btn btn-ghost" href="${p.links.video}" target="_blank" rel="noopener noreferrer">Video</a>`
+        : ''
     const demo = p.links?.demo
         ? `<a class="btn" href="${p.links.demo}" target="_blank" rel="noreferrer">Demo</a>`
         : ''
@@ -50,7 +53,7 @@ function projectCard(p) {
         <p class="muted" style="margin:0;">${p.description}</p>
       </div>
       <div class="tags">${tags}</div>
-      <div class="cta-row">${demo}${repo}</div>
+      <div class="cta-row">${demo}${video}${repo}</div>
     </article>
   `
 }
