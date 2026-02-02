@@ -17,14 +17,6 @@
     "repo": "https://github.com/aelin6277/RacoonSquash"
   }
 },
-{
-        "title": "CardsGame2022",
-        "description": "Kodprojekt (kortspel) för att öva logik och struktur.",
-        "tags": ["Java", "OOP"],
-        "links": {
-            "repo": "https://github.com/Elin65894/CardsGame2022.git"
-        }
-    },
     {
   "title": "WeatherPWA",
   "description": "PWA som hämtar väderdata från API och visar temperatur för valda städer. Byggd i Visual Studio Code med fokus på enkel UX och offline/PWA-funktioner.",
